@@ -17,3 +17,6 @@ jobs:
 
       - name: Build Solution
         run: msbuild PhysicsGame.sln /p:Configuration=Release  
+
+      - name: Create artifact directory
+        run: mkdir artifact/PhysicsGame
