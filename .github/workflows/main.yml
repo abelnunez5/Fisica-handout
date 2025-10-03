@@ -22,7 +22,7 @@ jobs:
         run: mkdir artifact/PhysicsGame
 
       - name: Copy the executable to the artifact directory
-        run: copy Build/PhysicsGame/release/Win32/PhysicsGame.exe ./artifact/PhysicGame/
+        run: copy Build/PhysicsGame/release/Win32/PhysicsGame.exe ./artifact/PhysicsGame/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4.6.2 
